@@ -1,0 +1,51 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.eggs/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+*.env
+
+# PyCharm specific
+.idea/
+
+# VS Code specific
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files (optional, if dynamically generated)
+static/
+media/
+
+# Ignore PDF files (optional, if not needed for version control)
+*.pdf
